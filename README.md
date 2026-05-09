@@ -6,8 +6,6 @@
 
 KubeTracer is a high-performance, cloud-native network monitor designed for transparent visibility into HTTP/gRPC traffic across Kubernetes nodes. Unlike proxy-based service meshes, KubeTracer operates with zero sidecars, requires no application restarts, and ensures near-zero overhead on your application pods.
 
-**KubeTracer** is a cloud-native network sniffer that provides visibility into HTTP API traffic across your Kubernetes nodes. Unlike traditional service meshes, KubeTracer requires **zero sidecars**, no application restarts, and has near-zero overhead on your application pods.
-
 By tapping the host network interface, KubeTracer reconstructs TCP streams and logs live traffic—useful for debugging distributed systems and monitoring inter-service communication.
 
 ## Repository layout
